@@ -9,6 +9,11 @@
     "files": [
         "lib"
     ],
+    "homepage": "https://github.com/sriram2534/adp-ui.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sriram2534/adp-ui.git"
+    },
     "peerDependencies": {
         "react": ">=17.0.1",
         "react-dom": ">=17.0.1",
