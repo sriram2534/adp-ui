@@ -1,0 +1,22 @@
+$button-colors: (
+    'success': #28a745,
+    'info': #17a2b8,
+    'warning': #ffc107,
+);
+
+.btn {
+    width: 5rem;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.25rem;
+    &.is-rounded {
+        border-radius: 1rem;
+    }
+}
+
+@each $key, $color in $button-colors {
+    .btn-#{$key} {
+        background-color: $color;
+    }
+}
