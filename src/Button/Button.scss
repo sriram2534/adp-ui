@@ -13,10 +13,10 @@ $button-colors: (
     &.is-rounded {
         border-radius: 1rem;
     }
-}
-
-@each $key, $color in $button-colors {
-    .btn-#{$key} {
-        background-color: $color;
+    @each $key, $color in $button-colors {
+        &__btn--#{$key} {
+            background-color: $color;
+        }
     }
+    
 }
